@@ -25,7 +25,7 @@ body {
     background-image: url('../img/banner.jpg');
     background-size: cover;
     text-align: center;
-    height: 80vh;
+    height:50%;
 }
 
 .title {
@@ -48,8 +48,13 @@ body {
 
 .bottone {
     background-color: #f04c2f ;
-    padding:2px;
+    padding:15px;
     margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 0px solid transparent;
+    margin-bottom: 20px;
 }
 
 .imgpc {
@@ -59,6 +64,20 @@ body {
 
 .rossa {
     background-color: #e22d0e;
+    margin-top: 0;
+    color: white;
+}
+
+.titolo {
+    font-weight: bold;
+    padding: 10px;
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+.commento {
+    font-style: italic;
+    padding: 10px;
 }
 
 
@@ -69,7 +88,7 @@ footer {
 
 .aside{
     border: 1px solid #dee1e3;
-    height: 300px;
+    height: 330px;
     width: 300px;
     display: inline-block;
     margin : 30px;
@@ -90,16 +109,16 @@ footer {
 
 .notebook{
     border: 1px solid white;
-    height: 400px;
+    height: 200px;
     width: 380px;
     display: inline-block;
     margin : 30px;
-    text-align: left;
+    text-align: center;
     
 }
 
 .imgnotebook {
-    width:100%;
+    width:90%;
     border-radius: 50%;
 }
 
@@ -110,10 +129,32 @@ footer {
     line-height: 1.5rem;
 }
 
-#nt1 {
-    width: 500px;
-}
+
 
 .didascalia {
     font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.footertitolo {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+
+
+.footer {
+    color: #c8e7f0 ;
+}
+
+.linkfooter {
+    color: #c8e7f0;
+}
+.footercopy {
+    border: 2px solid #c8e7f0;
+   border-left: 2px solid transparent;
+   border-bottom: 2px solid transparent;
+   border-right: 2px solid transparent;
 }

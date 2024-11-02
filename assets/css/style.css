@@ -2,14 +2,14 @@ body {
     color:#393d41 ;
     font-size: 1.2rem;
     font-family: "Open sans", sans-serif;
-    line-height: 1.65rem;
+    line-height: 1.65;
 }
 #container {
     max-width: 1920px;
     font-family: "Open sans", sans-serif;
     color:#393d41;
     font-size: 1.2rem;
-    line-height: 1.65em;
+    line-height: 1.65;
     text-align: center;
     margin: 0 auto;
 }
@@ -20,6 +20,7 @@ body {
 
 #logo {
     width: 200px;
+    text-align: left;
 }
     
 .intro {
@@ -39,7 +40,7 @@ body {
     padding-left: 20px;
     padding-bottom:20px;
     padding-right: 20px;
-    line-height: 1.5rem;
+    line-height: 1.5;
 }
 
 .scritta {
@@ -49,8 +50,12 @@ body {
 
 .bottone {
     background-color: #f04c2f ;
-    padding:2px;
+    padding:15px;
     margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 0px solid transparent;
 }
 
 .imgpc {
@@ -60,6 +65,28 @@ body {
 
 .rossa {
     background-color: #e22d0e;
+    margin-top: 0;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.titolo {
+    font-weight: bold;
+    padding: 10px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.commento {
+    font-style: italic;
+    padding: 10px;
+}
+
+.didascalia {
+    font-size: 14px;
+    padding-bottom: 20px;
 }
 
 
@@ -70,7 +97,7 @@ footer {
 
 .aside{
     border: 1px solid #dee1e3;
-    height: 300px;
+    height: 330px;
     width: 300px;
     display: inline-block;
     margin : 30px;
@@ -108,7 +135,7 @@ footer {
     color: #25a2c3;
     font-family: "Montserrat";
     font-weight: bold;
-    line-height: 1.5rem;
+    line-height: 1.5;
 }
 
 #nt1 {
@@ -117,4 +144,24 @@ footer {
 
 .didascalia {
     font-size: 14px;
+}
+
+.footertitolo {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+
+
+.footer {
+    color: #c8e7f0 ;
+}
+
+.linkfooter {
+    color: #c8e7f0;
+}
+.footercopy {
+ margin-top: 20px;
 }
