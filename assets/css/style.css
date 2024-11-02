@@ -16,11 +16,18 @@ body {
 
 .nav {
     background-color: black;
+   max-width: 1920px;
+    font-family: "Open sans", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    margin: 0 auto;
 }
+    
+
 
 #logo {
     width: 200px;
-    text-align: left;
+    text-align: center;
 }
     
 .intro {
@@ -36,9 +43,9 @@ body {
     color: #25a2c3;
     font-family: "Montserrat";
     font-weight: bold;
-    padding-top: 90px;
+    padding-top: 150px;
     padding-left: 20px;
-    padding-bottom:20px;
+    padding-bottom:10px;
     padding-right: 20px;
     line-height: 1.5;
 }
@@ -97,7 +104,7 @@ footer {
 
 .aside{
     border: 1px solid #dee1e3;
-    height: 330px;
+    height: 350px;
     width: 300px;
     display: inline-block;
     margin : 30px;
@@ -151,6 +158,7 @@ footer {
     font-size: 32px;
     font-weight: bold;
     line-height: 1.5;
+    padding-top: 20px;
 }
 
 
@@ -163,5 +171,9 @@ footer {
     color: #c8e7f0;
 }
 .footercopy {
- margin-top: 20px;
+    border: 2px solid #c8e7f0;
+   border-left: 2px solid transparent;
+   border-bottom: 2px solid transparent;
+   border-right: 2px solid transparent;
+   padding-top: 10px;
 }

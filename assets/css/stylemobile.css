@@ -109,11 +109,10 @@ footer {
 
 .notebook{
     border: 1px solid white;
-    height: 200px;
-    width: 380px;
+
     display: inline-block;
     margin : 30px;
-    text-align: center;
+    
     
 }
 
